@@ -44,3 +44,8 @@ android_library_import  {
         "androidx.appcompat_appcompat",
     ],
 }
+
+android_library_import {
+    name: "glide",
+    aars: ["Glide/glide-4.9.0.aar"],
+}
