@@ -55,7 +55,6 @@ function fetchPrebuilts() {
 # 1 - App name
 # 2 - App apk url
 fetchPrebuilts DuckDuckGo https://api.github.com/repos/duckduckgo/Android/releases/latest
-fetchPrebuilts SimpleCalendar https://api.github.com/repos/SimpleMobileTools/Simple-Calendar/releases/latest
 
 # git commit stage
 if [ ${#commit_msg[@]} -ne 0 ]; then
