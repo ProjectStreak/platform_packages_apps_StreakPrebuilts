@@ -1,16 +1,4 @@
 android_app_import {
-	name: "DuckDuckGo",
-	apk: "DuckDuckGo/DuckDuckGo.apk",
-	presigned: true,
-	dex_preopt: {
-		enabled: false,
-	},
-	privileged: true,
-	product_specific: true,
-	overrides: ["Browser2"],
-}
-
-android_app_import {
     name: "SimpleCalendar",
     apk: "SimpleCalendar/SimpleCalendar.apk",
     presigned: true,
