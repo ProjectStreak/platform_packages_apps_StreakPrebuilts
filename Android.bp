@@ -1,27 +1,3 @@
-android_app_import {
-    name: "SimpleCalendar",
-    apk: "SimpleCalendar/SimpleCalendar.apk",
-    presigned: true,
-    dex_preopt: {
-        enabled: false,
-    },
-    privileged: true,
-    product_specific: true,
-    overrides: ["Calendar"],
-}
-
-android_app_import {
-    name: "SimpleGallery",
-    apk: "SimpleGallery/SimpleGallery.apk",
-    presigned: true,
-    dex_preopt: {
-        enabled: false,
-    },
-    privileged: true,
-    product_specific: true,
-    overrides: ["Gallery2"],
-}
-
 android_library_import  {
     name: "ColorPicker",
     aars: ["ColorPicker/colorpickerview.aar"],
